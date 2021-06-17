@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIAMOND COMPARE</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css_style/header.css">
+    <link rel="stylesheet" href="css_style/compare.css">
+    <link rel="stylesheet" href="icon/css/fontawesome.css">
+    <link rel="stylesheet" href="icon/css/brands.css">
+    <link rel="stylesheet" href="icon/css/solid.css">
+    <script>
+        $(document).ready(function() {
+        $("#name").on('change', function(){
+            $(".data").hide();
+            $("#" + $(this).val()).fadeIn(700);
+        }).change();    
+        });
+
+        $(document).ready(function() {
+        $("#name1").on('change', function(){
+            $(".data1").hide();
+            $("#" + $(this).val()).fadeIn(700);
+        }).change();    
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h2>CRYSTAL</h2>
+        <img src="image/logo/logo1.png">
+    </div>
+    <nav class="nav">
+        <nav class="fixed-top">
+            <ul>
+                <li><a href="HOME.html">HOME</a></li>
+                <li><a href="ABOUT_US.html">ABOUT US</a></li>
+                <li><a href="PRODUCT.html">PRODUCT</a></li>
+                <li><a href="CONTACT.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <div class="content">
+        <div class="title">
+            <h1>DIAMOND COMPARE</h1>
+        </div>
+        <div class="compare_bar">
+            <div class="compare_bar1">
+                <div class="compar_bar2">
+                    <select id="name">
+                        <option value="select">Select product to compare</option>
+                        <option value="0">DIAMOND1</option>
+                        <option value="1">DIAMOND2</option>
+                        <option value="2">DIAMOND3</option>
+                        <option value="3">DIAMOND4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="compare_bar1">
+                <div class="compar_bar2">
+                    <select id="name1">
+                        <option value="select">Select product to compare</option>
+                        <option value="4">DIAMOND1</option>
+                        <option value="5">DIAMOND2</option>
+                        <option value="6">DIAMOND3</option>
+                        <option value="7">DIAMOND4</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="compare_product">
+            <div class="compare_product1">
+                <div id = "0" class="product data">
+                    <div class="image">
+                        <img src="image/diamond/diamond1/diamond1-2.png">
+                    </div>
+                    <div class="compare_content">
+                        <table style="width: 50vw;">
+                            <tr>
+                                <td class="td1">NAME</td>
+                                <td class="td2">DIAMOND1</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">PRICE</td>
+                                <td class="td2">73.960.000 VNĐ</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">TYPE</td>
+                                <td class="td2">RING</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">COLOR</td>
+                                <td class="td2">WHITE</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">WEIGHT</td>
+                                <td class="td2">30g</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">SIZE</td>
+                                <td class="td2">23mm</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">MATERIAL</td>
+                                <td class="td2">DIAMOND</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">ORIGINAL</td>
+                                <td class="td2">VIETNAM</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div  id="1" class="product data">
+                    <div class="image">
+                        <img src="image/diamond/diamond2/diamond2-1.png">
+                    </div>
+                    <div class="compare_content">
+                        <table style="width: 50vw;">
+                            <tr>
+                                <td class="td1">NAME</td>
+                                <td class="td2">DIAMOND2</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">PRICE</td>
+                                <td class="td2">167.521.000 VNĐ</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">TYPE</td>
+                                <td class="td2">BRACELET</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">COLOR</td>
+                                <td class="td2">WHITE</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">WEIGHT</td>
+                                <td class="td2">120g</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">SIZE</td>
+                                <td class="td2">20mm</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">MATERIAL</td>
+                                <td class="td2">DIAMOND</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">ORIGINAL</td>
+                                <td class="td2">VIETNAM</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div  id="2" class="product data">
+                    <div class="image">
+                        <img src="image/diamond/diamond3/diamond3-1.png">
+                    </div>
+                    <div class="compare_content">
+                        <table style="width: 50vw;">
+                            <tr>
+                                <td class="td1">NAME</td>
+                                <td class="td2">DIAMOND3</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">PRICE</td>
+                                <td class="td2">34.054.000 VNĐ</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">TYPE</td>
+                                <td class="td2">PENDANT</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">COLOR</td>
+                                <td class="td2">WHITE</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">WEIGHT</td>
+                                <td class="td2">130g</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">SIZE</td>
+                                <td class="td2">21mm</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">MATERIAL</td>
+                                <td class="td2">DIAMOND</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">ORIGINAL</td>
+                                <td class="td2">VIETNAM</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div  id="3" class="product data">
+                    <div class="image">
+                        <img src="image/diamond/diamond4/diamond4-1.png">
+                    </div>
+                    <div class="compare_content">
+                        <table style="width: 50vw;">
+                            <tr>
+                                <td class="td1">NAME</td>
+                                <td class="td2">DIAMOND4</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">PRICE</td>
+                                <td class="td2">936.000 VNĐ</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">TYPE</td>
+                                <td class="td2">PENDANT</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">COLOR</td>
+                                <td class="td2">WHITE</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">WEIGHT</td>
+                                <td class="td2">150g</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">SIZE</td>
+                                <td class="td2">23mm</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">MATERIAL</td>
+                                <td class="td2">DIAMOND</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">ORIGINAL</td>
+                                <td class="td2">VIETNAM</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="compare_product1">
+                <div id = "4" class="product data1">
+                    <div class="image">
+                        <img src="image/diamond/diamond1/diamond1-2.png">
+                    </div>
+                    <div class="compare_content">
+                        <table style="width: 50vw;">
+                            <tr>
+                                <td class="td1">NAME</td>
+                                <td class="td2">DIAMOND1</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">PRICE</td>
+                                <td class="td2">73.960.000 VNĐ</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">TYPE</td>
+                                <td class="td2">RING</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">COLOR</td>
+                                <td class="td2">WHITE</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">WEIGHT</td>
+                                <td class="td2">30g</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">SIZE</td>
+                                <td class="td2">23mm</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">MATERIAL</td>
+                                <td class="td2">DIAMOND</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">ORIGINAL</td>
+                                <td class="td2">VIETNAM</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div  id="5" class="product data1">
+                    <div class="image">
+                        <img src="image/diamond/diamond2/diamond2-1.png">
+                    </div>
+                    <div class="compare_content">
+                        <table style="width: 50vw;">
+                            <tr>
+                                <td class="td1">NAME</td>
+                                <td class="td2">DIAMOND2</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">PRICE</td>
+                                <td class="td2">167.521.000 VNĐ</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">TYPE</td>
+                                <td class="td2">BRACELET</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">COLOR</td>
+                                <td class="td2">WHITE</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">WEIGHT</td>
+                                <td class="td2">120g</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">SIZE</td>
+                                <td class="td2">20mm</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">MATERIAL</td>
+                                <td class="td2">DIAMOND</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">ORIGINAL</td>
+                                <td class="td2">VIETNAM</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div  id="6" class="product data1">
+                    <div class="image">
+                        <img src="image/diamond/diamond3/diamond3-1.png">
+                    </div>
+                    <div class="compare_content">
+                        <table style="width: 50vw;">
+                            <tr>
+                                <td class="td1">NAME</td>
+                                <td class="td2">DIAMOND3</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">PRICE</td>
+                                <td class="td2">34.054.000 VNĐ</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">TYPE</td>
+                                <td class="td2">PENDANT</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">COLOR</td>
+                                <td class="td2">WHITE</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">WEIGHT</td>
+                                <td class="td2">130g</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">SIZE</td>
+                                <td class="td2">21mm</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">MATERIAL</td>
+                                <td class="td2">DIAMOND</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">ORIGINAL</td>
+                                <td class="td2">VIETNAM</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div  id="7" class="product data1">
+                    <div class="image">
+                        <img src="image/diamond/diamond4/diamond4-1.png">
+                    </div>
+                    <div class="compare_content">
+                        <table style="width: 50vw;">
+                            <tr>
+                                <td class="td1">NAME</td>
+                                <td class="td2">DIAMOND4</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">PRICE</td>
+                                <td class="td2">936.000 VNĐ</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">TYPE</td>
+                                <td class="td2">PENDANT</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">COLOR</td>
+                                <td class="td2">WHITE</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">WEIGHT</td>
+                                <td class="td2">150g</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">SIZE</td>
+                                <td class="td2">23mm</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">MATERIAL</td>
+                                <td class="td2">DIAMOND</td>
+                            </tr>
+                            <tr>
+                                <td class="td1">ORIGINAL</td>
+                                <td class="td2">VIETNAM</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>           
+        </div>
+    </div>
+    <div class=" footer ">
+        <div class="logo ">
+            <img src="image/logo/logo1.png " style="height: 100px; width: 100px; ">
+        </div>
+        <div class="footer-content ">
+            <p>Contact information</p>
+            <p>Telephone: 0936095620</p>
+            <p>Email: thanglhts2103005@fpt.edu.vn</p>
+            <p>Coppyringht©2021 Crystal.com, designed by FPT-FAT2-HCM-GROUP4-T1.2103.E1</p>
+        </div>
+    </div>
+</body>
+</html>

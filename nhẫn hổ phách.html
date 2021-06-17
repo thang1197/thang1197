@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMBER3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css_style/header.css">
+    <link rel="stylesheet" href="css_style/product_detail.css">
+    <link rel="stylesheet" href="icon/css/fontawesome.css">
+    <link rel="stylesheet" href="icon/css/brands.css">
+    <link rel="stylesheet" href="icon/css/solid.css">
+    <script>
+        function change(event){
+            document.querySelector(".display").src = event.children[0].src;
+        }
+        function check(){
+            var name = document.getElementById("txtName").value;
+            var mail = document.getElementById("txtMail").value;
+            if(name.length==0){
+                alert("Please enter your name in feedback form");
+                return;
+            }
+            if(mail.length==0){
+                alert("Please enter your email in feedback form");
+                return;
+            }
+            if(name.lenght!=0 && mail.lenght!=0){
+                alert("Thank you for your feedback!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h2>CRYSTAL</h2>
+        <img src="image/logo/logo1.png">
+    </div>
+    <nav class="nav">
+        <nav class="fixed-top">
+            <ul>
+                <li><a href="HOME.html">HOME</a></li>
+                <li><a href="ABOUT_US.html">ABOUT US</a></li>
+                <li><a href="PRODUCT.html">PRODUCT</a></li>
+                <li><a href="CONTACT.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <div class="website-body">
+        <div class="banner">
+            <div class="ad-banner">
+                <img src="image/banner/banner1.jpg">
+            </div>
+            <div class="ad-banner">
+                <img src="image/banner/banner2.jpg">
+            </div>
+            <div class="ad-banner">
+                <img src="image/banner/banner3.jpg">
+            </div>
+            <div class="ad-banner">
+                <img src="image/banner/banner4.jpg">
+            </div>
+            <div class="ad-banner">
+                <img src="image/banner/banner9.jpg">
+            </div>
+            <div class="ad-banner">
+                <img src="image/banner/banner11.jpg">
+            </div>
+        </div>
+        <!-- Chinh sua noi dung tu day -->
+
+        <div class="product-content">
+            <div class="content">
+                <div class="btn-img">
+                    <div><button id="btn1" onclick="change(this)"><img src="image/amber/Nhẫn/Nhẫn 1.jpg"></button></div>
+                    <div><button id="btn2" onclick="change(this)"><img src="image/amber/Nhẫn/Nhẫn 2.jpg"></button></div>
+                    <div><button id="btn3" onclick="change(this)"><img src="image/amber/Nhẫn/Nhẫn 3.jpg"></button></div>
+                    <div><button id="btn4" onclick="change(this)"><img src="image/amber/Nhẫn/Nhẫn 4.jpg"></button></div>
+                </div>
+                <div class="image">
+                    <img src="image/amber/Nhẫn/nhẫn hỏ phách.jpg" class="display">
+                </div>
+                <div class="info">
+                    <h2>AMBER3</h2>
+                    <p>Price: 1.390.000 VNĐ</p>
+                    <table>
+                        <tr>
+                            <td class="td1">Type</td>
+                            <td>Ring</td>
+                        </tr>
+                        <tr>
+                            <td class="td1">Material</td>
+                            <td>Amber</td>
+                        </tr>
+                        <tr>
+                            <td class="td1">Color</td>
+                            <td>Yellow</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="content-info">
+                <p>
+                    You know, amber stone in general and beeswax amber in particular has been bestowed with an extremely attractive "power" by nature, allowing these stones to have a positive impact on people's health. use. Scientists have discovered that on this stone there is a layer of Succinic acid, which is the type of acid that folk often call amber acid or amber acid. This acid plays an extremely effective role in the treatment of diseases related to bones and joints such as arthritis. People also often choose to wear this type of amber for children because Succinic acid also has anti-inflammatory properties, enhances resistance, helps children always be healthy and happy in life.
+                </p>
+            </div>
+            <div class="content-img">
+                <div class="picture">
+                    <img src="image/amber/Nhẫn/Nhẫn 1.jpg">
+                </div>
+                <div class="picture">
+                    <img src="image/amber/Nhẫn/Nhẫn 2.jpg">
+                </div>
+                <div class="picture">
+                    <img src="image/amber/Nhẫn/Nhẫn 3.jpg">
+                </div>
+                <div class="picture">
+                    <img src="image/amber/Nhẫn/Nhẫn 4.jpg">
+                </div>
+            </div>
+            <!-- sua lai link href cua class download toi noi chu file word -->
+
+            <div class="button">
+                <div class="download">
+                    <a href="word/Product Detail ( Amber )/amber ring.docx" download="agate1"><button class="btn"><i class="fa fa-download"></i> Download For Detail</button></a>
+                </div>
+                <div class="contact-to-buy">
+                    <a href="CONTACT.html"><button class="btn"><i class="fas fa-phone-square-alt"></i> Contact To Buy</button></a>
+                </div>
+                <div class="compare">
+                    <a href="AMBER COMPARE.html"><button class="btn"><i class="fas fa-not-equal"></i> Compare</button></a>
+                </div>
+            </div>
+            <!-- link href toi cac trang san pham con lai, hinh anh cung vay -->
+
+            <div class="related-product">
+                <div class="title">
+                    <h1>RELATED PRODUCTS</h1>
+                </div>
+                <div class="related-product-img">
+                    <div class="product">
+                        <a href="Đồng Hồ Hổ Phách.html"><img src="image/amber/Đồng hồ/dong ho ho phach.jpg"></a>
+                    </div>
+                    <div class="product">
+                        <a href="Mặt Dây Chuyền Hổ Phách.html"><img src="image/amber/Mặt Dây Chuyền/mặt dây chuyền.jpg"></a>
+                    </div>
+                    <div class="product">
+                        <a href="Vòng Tay Hổ Phách.html"><img src="image/amber/Vòng tay/vong tay ho phach.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback">
+                <div class="feed-title">
+                    <h2>FEEDBACK FORM</h2>
+                </div>
+                <form>
+                    <table>
+                        <tr>
+                            <td>Your name:</td>
+                            <td><input type="text" id="txtName" required placeholder="Enter your name"/></td>
+                        </tr>
+                        <tr>
+                            <td>Your email:</td>
+                            <td><input type="email" id="txtMail" required placeholder="Enter your email"/></td>
+                        </tr>
+                        <tr>
+                            <td>Your feedback</td>
+                            <td><textarea cols="100" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Submit" id="sub-btn" class="feedbtn" onclick="check()"></td>
+                            <td><input type="reset" value="Cancle" id="can-btn" class="feedbtn"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <!-- Chinh sua noi dung toi day -->
+
+        <div class="banner">
+            <div class="ad-banner">
+                <img src="image/banner/banner5.jpg">
+            </div>
+            <div class="ad-banner">
+                <img src="image/banner/banner6.jpg">
+            </div>
+            <div class="ad-banner">
+                <img src="image/banner/banner7.jpg">
+            </div>
+            <div class="ad-banner">
+                <img src="image/banner/banner8.jpg">
+            </div>
+            <div class="ad-banner">
+                <img src="image/banner/banner10.jpg">
+            </div>
+            <div class="ad-banner">
+                <img src="image/banner/banner12.jpg">
+            </div>
+        </div>
+    </div> 
+    <div class="footer">
+        <div class="logo">
+            <img src="image/logo/logo1.png" style="height: 100px; width: 100px;">
+        </div>
+        <div class="footer-content">
+            <p>Contact information</p>
+            <p>Telephone: 0936095620</p>
+            <p>Email: thanglhts2103005@fpt.edu.vn</p>
+            <p>Coppyringht©2021 Crystal.com, designed by FPT-FAT2-HCM-GROUP4-T1.2103.E1</p>
+        </div>
+    </div>
+</body>
+</html>
